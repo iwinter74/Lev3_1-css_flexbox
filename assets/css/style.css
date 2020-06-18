@@ -1,0 +1,89 @@
+
+*{
+    margin: 0;
+    padding: 0
+}
+body{
+    font-family: 'Raleway', sans-serif;
+}
+header h1 {
+    color:#666;
+}
+header h1:hover { 
+    color: #333
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 2em;
+    border-top: 1px solid darkgrey;
+    border-bottom: 1px solid darkgrey;
+    height: 76px
+}
+
+ul {
+    display: flex;
+    list-style: none;
+
+
+}
+li{
+    padding-right: 2em
+}
+header a {
+    color: #333;
+    text-decoration: none;
+}
+header a:hover {
+    color: #337ab7
+}
+section{
+    background: url(https://cdn.colorlib.com/shapely/wp-content/uploads/sites/12/2016/03/photo-1443527216320-7e744084f5a7-1.jpg) center/cover no-repeat;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section article {
+    text-align: center
+}
+article h1 {
+    font-size: 4em
+}
+article p{
+    font-size: 1.5em;
+    padding-bottom: 2em
+}
+article h1, p{
+    color: white;
+    padding-bottom: 1em
+}
+article a{
+    color: white;
+    padding: 1em 2em;
+    text-decoration: none;
+    margin-top: 2em
+}
+article a:first-of-type{
+    background: #745cf9;
+    border: 2px solid #745cf9;
+    padding: 1em 4em
+}
+article a:first-of-type:hover {
+    background: #5234f9;
+}
+article a:nth-of-type(2) {
+    border: 2px solid white
+}
+
+
+Font-family:"Raleway"
+Headerhöhe:76px
+Logofarbe: #666
+Logofarbe in hover: #333
+Menüfarbe: #333 
+Menüfarbe in hover: #337ab7
+
+Die Farbe des Button “Read more” ist: #745cf9
+Die Farbe des Button:hover “Read more” ist: #5234f9
